@@ -1,0 +1,54 @@
+.header {
+	background: url(assets/Grass.png);
+	box-shadow: 0px 3px 5px #888888;
+	height: 130px;
+}
+
+body {
+	margin: 0;
+	font-family: verdana;
+	background-color: #d6d6d6; 
+}
+
+img.logo {
+}
+
+a.play {
+	text-decoration: none;
+	color: #00e02c;
+	border: 3px solid #00e02c;
+	padding: 10px 40px;
+	font-size: 20px; 
+	border-radius: 5px;
+	transition: ease 0.2s;
+}
+
+a.play:hover {
+	background-color: #00e02c;
+	color: white;
+}
+
+div.main {
+	background-color: white;
+	width: 600px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d1d1d1;
+    border-radius: 1px;
+    margin-top: 20px;
+    padding: 10px;
+	box-shadow: 0px 0px 7px #d1d1d1;
+}
+
+h2.title {
+	color: #888888;
+}
+
+footer {
+	width: 100%;
+	background-color: #222;
+	padding: 1px 0px;
+	margin-top: 173px;
+	color: white;
+}
